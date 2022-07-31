@@ -1,10 +1,8 @@
 <?php
 
 function act_2() {
-    $arra = array("uglify-js"=> "1.3.4", "jshint"=> "0.9.1", "recess"=> "1.1.8" ,"connect"=> "2.1.3", "hogan.js"=>"2.0.0"); 
-    $myarray = array('red', 'green', 'white');
+    $a1 = ['bariles', 'tambasakan', 'burod'];
     
-    var_dump(json_encode($arra));
-    echo "\n";
-    var_dump(json_encode($myarray));
+    var_dump(json_encode($a1));
+    
 }

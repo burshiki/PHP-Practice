@@ -25,34 +25,41 @@
     <body>
         <div class="container">
             <h4>Act-1</h4>
-            {{ act_1() }}
+            output: {{ act_1() }}
             <hr />
             <h4>Act-2</h4>
-            {{ act_2() }}
+            output: {{ act_2() }}
             <hr />
             <h4>Act-3</h4>
-            {{ act_3() }}
+            output: {{ act_3() }}
             <hr />
             <h4>Act-4</h4>
+            input: {{ implode(" ", $arr2 =  [1, 2, 3, 6, 7, 8]) }}
+            <br />
             
             <hr />
             <h4>Act-5</h4>
-            {{ act_5() }}
+            output: {{ act_5() }}
             <hr />
             <h4>Act-6</h4>
-            {{ act_6(16) }}
+            input: {{ $input = 14 }}
+            <br />
+            output: {{ act_6($input) }}
             <hr />
             <h4>Act-7</h4>
-            {{ act_7($arr1 = array(5, 3, 4, 3, 5, 5, 3)) }}
+            input: {{ implode(" ", $arr1 = [5, 3, 1, 3, 5, 5, 3]) }}
+            <br />
+            output: {{ act_7($arr1) }}
+            
             <hr />
             <h4>Act-8</h4>
-            {{ act_8() }}
+            output: {{ act_8() }}
             <hr />
             <h4>Act-9</h4>
-            {{ act_9() }}
+            output: {{ act_9() }}
             <hr />
             <h4>Act-10</h4>
-            {{ act_10() }}
+            output: {{ act_10() }}
 
         </div>
     </body>
